@@ -3,67 +3,190 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services - Justice Tech World</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Services - Justice Tech</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-
-<header>
-    <div class="logo">Justice Tech World</div>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About Us</a>
-        <a href="services.html" class="active">Services</a>
-        <a href="pages.html">Pages</a>
-        <a href="blog.html">Blog</a>
-        <a href="contact.html">Contact Us</a>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">JUSTICE TECH</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="services.html" class="nav-link active">Services</a>
+                <a href="portfolio.html" class="nav-link">Portfolio</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
     </nav>
-    <div class="contact-info">
-        📧 <a href="mailto:okanlawonjustice71@gmail.com">okanlawonjustice71@gmail.com</a> | 
-        📞 <a href="tel:09039325651">09039325651</a> | 
-        🔗 <a href="#">LinkedIn</a>
-    </div>
-</header>
 
-<section class="hero about-hero">
-    <div class="overlay">
-        <h1>Our Services</h1>
-        <p>Creative solutions tailored to your brand’s needs.</p>
-    </div>
-</section>
+    <!-- Services Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>My Services</h1>
+            <p>Comprehensive design and development solutions for your business</p>
+        </div>
+    </section>
 
-<section class="section">
-    <div class="services">
-        <div class="service">
-            <i class="fas fa-paint-brush fa-2x"></i>
-            <h3>Graphics Design</h3>
-            <p>Logos, flyers, posters, and social media graphics that make your brand stand out.</p>
-        </div>
-        <div class="service">
-            <i class="fas fa-laptop-code fa-2x"></i>
-            <h3>Web Design & Development</h3>
-            <p>Responsive, modern websites that engage visitors and drive conversions.</p>
-        </div>
-        <div class="service">
-            <i class="fas fa-id-badge fa-2x"></i>
-            <h3>Brand Identity</h3>
-            <p>Complete brand packages including color palettes, typography, and style guides.</p>
-        </div>
-        <div class="service">
-            <i class="fas fa-bullhorn fa-2x"></i>
-            <h3>Digital Marketing</h3>
-            <p>Social media campaigns, email marketing, and SEO strategies to grow your audience.</p>
-        </div>
-    </div>
-</section>
+    <!-- Services Details -->
+    <section class="services-details">
+        <div class="container">
+            <div class="service-detail" id="uiux">
+                <div class="service-detail-content">
+                    <h2>UI/UX Design</h2>
+                    <p>I create intuitive and visually appealing user interfaces that provide exceptional user experiences. My design process focuses on understanding user needs and business goals to deliver solutions that are both beautiful and functional.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> User Research & Personas</li>
+                        <li><i class="fas fa-check"></i> Wireframing & Prototyping</li>
+                        <li><i class="fas fa-check"></i> Visual Design & Branding</li>
+                        <li><i class="fas fa-check"></i> Usability Testing</li>
+                        <li><i class="fas fa-check"></i> Interactive Prototypes</li>
+                        <li><i class="fas fa-check"></i> Design Systems</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-primary">Get a Quote</a>
+                </div>
+                <div class="service-detail-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-pencil-ruler"></i>
+                    </div>
+                </div>
+            </div>
 
-<footer>
-    <p>Email: <a href="mailto:okanlawonjustice71@gmail.com">okanlawonjustice71@gmail.com</a> | 
-       Phone: <a href="tel:09039325651">09039325651</a> | 
-       LinkedIn: <a href="#">Your Profile</a></p>
-    <p>&copy; 2025 Justice Tech World. All Rights Reserved.</p>
-</footer>
+            <div class="service-detail" id="webdev">
+                <div class="service-detail-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-code"></i>
+                    </div>
+                </div>
+                <div class="service-detail-content">
+                    <h2>Web Development</h2>
+                    <p>I build responsive, fast, and modern websites that work perfectly across all devices. Using the latest technologies and best practices, I ensure your website not only looks great but also performs excellently.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Responsive Web Design</li>
+                        <li><i class="fas fa-check"></i> Frontend Development</li>
+                        <li><i class="fas fa-check"></i> Backend Development</li>
+                        <li><i class="fas fa-check"></i> E-commerce Solutions</li>
+                        <li><i class="fas fa-check"></i> Website Maintenance</li>
+                        <li><i class="fas fa-check"></i> SEO Optimization</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-primary">Get a Quote</a>
+                </div>
+            </div>
 
+            <div class="service-detail" id="mobiledev">
+                <div class="service-detail-content">
+                    <h2>Mobile Development</h2>
+                    <p>I develop mobile applications that provide seamless experiences for both iOS and Android platforms. From concept to deployment, I ensure your app meets the highest standards of quality and user satisfaction.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> iOS App Development</li>
+                        <li><i class="fas fa-check"></i> Android App Development</li>
+                        <li><i class="fas fa-check"></i> Cross-Platform Solutions</li>
+                        <li><i class="fas fa-check"></i> UI/UX Design for Mobile</li>
+                        <li><i class="fas fa-check"></i> App Store Optimization</li>
+                        <li><i class="fas fa-check"></i> App Maintenance & Updates</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-primary">Get a Quote</a>
+                </div>
+                <div class="service-detail-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing">
+        <div class="container">
+            <h2 class="section-title">Pricing Plans</h2>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Basic</h3>
+                    <div class="price">₦50,000</div>
+                    <ul class="pricing-features">
+                        <li>5 Page Website</li>
+                        <li>Responsive Design</li>
+                        <li>Basic SEO</li>
+                        <li>1 Month Support</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-outline">Get Started</a>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="popular-badge">Most Popular</div>
+                    <h3>Professional</h3>
+                    <div class="price">₦120,000</div>
+                    <ul class="pricing-features">
+                        <li>10 Page Website</li>
+                        <li>Custom Design</li>
+                        <li>Advanced SEO</li>
+                        <li>E-commerce Functionality</li>
+                        <li>3 Months Support</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-primary">Get Started</a>
+                </div>
+                <div class="pricing-card">
+                    <h3>Enterprise</h3>
+                    <div class="price">₦250,000</div>
+                    <ul class="pricing-features">
+                        <li>Unlimited Pages</li>
+                        <li>Custom Web Application</li>
+                        <li>Premium SEO</li>
+                        <li>E-commerce with Payment</li>
+                        <li>6 Months Support</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-outline">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Justice Tech</h3>
+                    <p>Creating digital excellence through design and development.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-phone"></i> 09039325651</p>
+                    <p><i class="fas fa-envelope"></i> okanlawonjustice71@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Lagos, Nigeria</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Justice Tech. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>

@@ -3,62 +3,312 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog - Justice Tech World</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Blog - Justice Tech | Design Insights & Tutorials</title>
+    <meta name="description" content="Read the latest insights on web design, UX/UI trends, and development tutorials from Justice Tech.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-
-<header>
-    <div class="logo">Justice Tech World</div>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About Us</a>
-        <a href="services.html">Services</a>
-        <a href="pages.html">Pages</a>
-        <a href="blog.html" class="active">Blog</a>
-        <a href="contact.html">Contact Us</a>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">JUSTICE TECH</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="portfolio.html" class="nav-link">Portfolio</a>
+                <a href="blog.html" class="nav-link active">Blog</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
     </nav>
-    <div class="contact-info">
-        📧 <a href="mailto:okanlawonjustice71@gmail.com">okanlawonjustice71@gmail.com</a> | 
-        📞 <a href="tel:09039325651">09039325651</a> | 
-        🔗 <a href="#">LinkedIn</a>
-    </div>
-</header>
 
-<section class="hero about-hero">
-    <div class="overlay">
-        <h1>Our Blog</h1>
-        <p>Insights, tips, and stories from the world of design and technology.</p>
-    </div>
-</section>
-
-<section class="section">
-    <div class="services">
-        <div class="service">
-            <h3>5 Tips for a Strong Brand Identity</h3>
-            <p>Learn how to create a brand identity that resonates with your audience and stands the test of time.</p>
-            <a href="blog-post1.html">Read More</a>
+    <!-- Blog Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>Design Insights & Tutorials</h1>
+            <p>Latest trends, tips, and thoughts on web design, UX/UI, and development</p>
         </div>
-        <div class="service">
-            <h3>Why Responsive Web Design Matters</h3>
-            <p>Discover why mobile-friendly websites are essential for your business success in 2025.</p>
-            <a href="blog-post2.html">Read More</a>
-        </div>
-        <div class="service">
-            <h3>Graphic Design Trends to Watch</h3>
-            <p>Stay ahead of the curve with these emerging design trends that will dominate the industry.</p>
-            <a href="blog-post3.html">Read More</a>
-        </div>
-    </div>
-</section>
+    </section>
 
-<footer>
-    <p>Email: <a href="mailto:okanlawonjustice71@gmail.com">okanlawonjustice71@gmail.com</a> | 
-       Phone: <a href="tel:09039325651">09039325651</a> | 
-       LinkedIn: <a href="#">Your Profile</a></p>
-    <p>&copy; 2025 Justice Tech World. All Rights Reserved.</p>
-</footer>
+    <!-- Blog Content -->
+    <section class="blog-content">
+        <div class="container">
+            <div class="blog-layout">
+                <!-- Main Blog Posts -->
+                <div class="blog-main">
+                    <!-- Featured Post -->
+                    <article class="blog-post featured">
+                        <div class="blog-image">
+                            <div class="image-placeholder">
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span><i class="far fa-calendar"></i> September 15, 2025</span>
+                                <span><i class="far fa-folder"></i> UI/UX Design</span>
+                                <span><i class="far fa-clock"></i> 5 min read</span>
+                            </div>
+                            <h2>The Future of UI Design: Minimalism vs. Maximalism</h2>
+                            <p>Exploring the ongoing debate between minimalist and maximalist approaches in modern UI design and how both have their place in today's digital landscape.</p>
+                            <a href="blog-post-1.html" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
 
+                    <!-- Regular Posts -->
+                    <div class="blog-posts">
+                        <article class="blog-post">
+                            <div class="blog-image">
+                                <div class="image-placeholder">
+                                    <i class="fas fa-mobile-alt"></i>
+                                </div>
+                            </div>
+                            <div class="blog-content">
+                                <div class="blog-meta">
+                                    <span><i class="far fa-calendar"></i> September 10, 2025</span>
+                                    <span><i class="far fa-folder"></i> Mobile Design</span>
+                                    <span><i class="far fa-clock"></i> 4 min read</span>
+                                </div>
+                                <h3>Mobile-First Design: Why It's More Important Than Ever</h3>
+                                <p>With mobile traffic surpassing desktop, adopting a mobile-first design approach is crucial for success. Learn the principles and benefits.</p>
+                                <a href="blog-post-2.html" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </article>
+
+                        <article class="blog-post">
+                            <div class="blog-image">
+                                <div class="image-placeholder">
+                                    <i class="fas fa-palette"></i>
+                                </div>
+                            </div>
+                            <div class="blog-content">
+                                <div class="blog-meta">
+                                    <span><i class="far fa-calendar"></i> September 7, 2025</span>
+                                    <span><i class="far fa-folder"></i> Color Theory</span>
+                                    <span><i class="far fa-clock"></i> 5 min read</span>
+                                </div>
+                                <h3>Color Psychology in Web Design: Choosing the Right Palette</h3>
+                                <p>How color choices impact user perception and behavior. A guide to selecting colors that align with your brand and target audience.</p>
+                                <a href="blog-post-3.html" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </article>
+
+                        <article class="blog-post">
+                            <div class="blog-image">
+                                <div class="image-placeholder">
+                                    <i class="fas fa-code"></i>
+                                </div>
+                            </div>
+                            <div class="blog-content">
+                                <div class="blog-meta">
+                                    <span><i class="far fa-calendar"></i> August 28, 2025</span>
+                                    <span><i class="far fa-folder"></i> Development</span>
+                                    <span><i class="far fa-clock"></i> 7 min read</span>
+                                </div>
+                                <h3>CSS Grid vs. Flexbox: When to Use Each</h3>
+                                <p>A practical guide to understanding the differences between CSS Grid and Flexbox, with real-world examples of when to use each layout method.</p>
+                                <a href="blog-post-4.html" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </article>
+
+                        <article class="blog-post">
+                            <div class="blog-image">
+                                <div class="image-placeholder">
+                                    <i class="fas fa-chart-line"></i>
+                                </div>
+                            </div>
+                            <div class="blog-content">
+                                <div class="blog-meta">
+                                    <span><i class="far fa-calendar"></i> August 20, 2025</span>
+                                    <span><i class="far fa-folder"></i> UX Design</span>
+                                    <span><i class="far fa-clock"></i> 5 min read</span>
+                                </div>
+                                <h3>Improving User Experience with Microinteractions</h3>
+                                <p>How small animations and interactive elements can significantly enhance user engagement and satisfaction in your digital products.</p>
+                                <a href="blog-post-5.html" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </article>
+
+                        <article class="blog-post">
+                            <div class="blog-image">
+                                <div class="image-placeholder">
+                                    <i class="fas fa-search"></i>
+                                </div>
+                            </div>
+                            <div class="blog-content">
+                                <div class="blog-meta">
+                                    <span><i class="far fa-calendar"></i> August 15, 2023</span>
+                                    <span><i class="far fa-folder"></i> SEO</span>
+                                    <span><i class="far fa-clock"></i> 8 min read</span>
+                                </div>
+                                <h3>Web Design Practices That Boost SEO Performance</h3>
+                                <p>Discover how your design choices impact search engine rankings and learn techniques to create SEO-friendly websites from the ground up.</p>
+                                <a href="blog-post-6.html" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </article>
+
+                        <article class="blog-post">
+                            <div class="blog-image">
+                                <div class="image-placeholder">
+                                    <i class="fas fa-universal-access"></i>
+                                </div>
+                            </div>
+                            <div class="blog-content">
+                                <div class="blog-meta">
+                                    <span><i class="far fa-calendar"></i> August 10, 2023</span>
+                                    <span><i class="far fa-folder"></i> Accessibility</span>
+                                    <span><i class="far fa-clock"></i> 6 min read</span>
+                                </div>
+                                <h3>Designing for Accessibility: Creating Inclusive Digital Experiences</h3>
+                                <p>Why accessibility matters and practical steps to ensure your websites and applications are usable by everyone, regardless of ability.</p>
+                                <a href="blog-post-7.html" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- Pagination -->
+                    <div class="pagination">
+                        <a href="#" class="page-link active">1</a>
+                        <a href="#" class="page-link">2</a>
+                        <a href="#" class="page-link">3</a>
+                        <a href="#" class="page-link next">Next <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Sidebar -->
+                <aside class="blog-sidebar">
+                    <!-- Search Widget -->
+                    <div class="sidebar-widget">
+                        <h3>Search</h3>
+                        <div class="search-form">
+                            <input type="text" placeholder="Search articles...">
+                            <button type="submit"><i class="fas fa-search"></i></button>
+                        </div>
+                    </div>
+
+                    <!-- Categories Widget -->
+                    <div class="sidebar-widget">
+                        <h3>Categories</h3>
+                        <ul class="categories-list">
+                            <li><a href="#">UI/UX Design <span>12</span></a></li>
+                            <li><a href="#">Web Development <span>8</span></a></li>
+                            <li><a href="#">Mobile Design <span>5</span></a></li>
+                            <li><a href="#">Color Theory <span>3</span></a></li>
+                            <li><a href="#">Accessibility <span>4</span></a></li>
+                            <li><a href="#">SEO <span>6</span></a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Recent Posts Widget -->
+                    <div class="sidebar-widget">
+                        <h3>Recent Posts</h3>
+                        <ul class="recent-posts">
+                            <li>
+                                <a href="#">The Future of UI Design: Minimalism vs. Maximalism</a>
+                                <span>March 15, 2023</span>
+                            </li>
+                            <li>
+                                <a href="#">Mobile-First Design: Why It's More Important Than Ever</a>
+                                <span>March 10, 2023</span>
+                            </li>
+                            <li>
+                                <a href="#">Color Psychology in Web Design</a>
+                                <span>March 5, 2023</span>
+                            </li>
+                            <li>
+                                <a href="#">CSS Grid vs. Flexbox: When to Use Each</a>
+                                <span>February 28, 2023</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Tags Widget -->
+                    <div class="sidebar-widget">
+                        <h3>Popular Tags</h3>
+                        <div class="tags">
+                            <a href="#" class="tag">UI Design</a>
+                            <a href="#" class="tag">UX</a>
+                            <a href="#" class="tag">Responsive</a>
+                            <a href="#" class="tag">CSS</a>
+                            <a href="#" class="tag">JavaScript</a>
+                            <a href="#" class="tag">Mobile</a>
+                            <a href="#" class="tag">Accessibility</a>
+                            <a href="#" class="tag">SEO</a>
+                        </div>
+                    </div>
+
+                    <!-- Newsletter Widget -->
+                    <div class="sidebar-widget newsletter">
+                        <h3>Newsletter</h3>
+                        <p>Subscribe to get the latest design insights and tutorials</p>
+                        <form class="newsletter-form">
+                            <input type="email" placeholder="Your email address" required>
+                            <button type="submit" class="btn btn-primary btn-full">Subscribe</button>
+                        </form>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to start your project?</h2>
+            <p>Let's work together to bring your ideas to life</p>
+            <a href="contact.html" class="btn btn-primary">Get In Touch</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Justice Tech</h3>
+                    <p>Creating digital excellence through design and development.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                        <a href="#"><i class="fab fa-behance"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-phone"></i> 09039325651</p>
+                    <p><i class="fas fa-envelope"></i> okanlawonjustice71@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Lagos, Nigeria</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 202s Justice Tech. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
