@@ -3,83 +3,255 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Justice Tech World</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- Font Awesome for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Justice Tech - Professional Graphic & Web Designer</title>
+    <meta name="description" content="Justice Tech - Award-winning graphic designer and web developer specializing in UI/UX design, brand identity, and responsive web development.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-
-<header>
-    <div class="logo">Justice Tech World</div>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html" class="active">About Us</a>
-        <a href="services.html">Services</a>
-        <a href="pages.html">Pages</a>
-        <a href="blog.html">Blog</a>
-        <a href="contact.html">Contact Us</a>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">JUSTICE TECH</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link active">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="portfolio.html" class="nav-link">Portfolio</a>
+                <a href="blog.html" class="nav-link">Blog</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
     </nav>
-    <div class="contact-info">
-        📧 <a href="mailto:okanlawonjustice71@gmail.com">okanlawonjustice71@gmail.com</a> | 
-        📞 <a href="tel:09039325651">09039325651</a> | 
-        🔗 <a href="#">LinkedIn</a>
-    </div>
-</header>
 
-<section class="hero about-hero">
-    <div class="overlay">
-        <h1>About Justice Tech World</h1>
-        <p>Designing experiences that inspire, connect, and deliver results.</p>
-    </div>
-</section>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Justice Tech</h1>
+                <h2>Graphic Designer & Web Developer</h2>
+                <p>Creating stunning digital experiences with over 5 years of expertise in design and development for businesses of all sizes.</p>
+                <div class="hero-buttons">
+                    <a href="portfolio.html" class="btn btn-primary">View My Work</a>
+                    <a href="contact.html" class="btn btn-secondary">Hire Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-placeholder">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<section class="section founder-section">
-    <div class="founder-photo">
-        <img src="justice.webp" alt="Okanlawon Justice - Founder" />
-    </div>
-    <div class="founder-story">
-        <h2>Meet the Founder</h2>
-        <p>
-            I’m <strong>Okanlawon Justice</strong>, the creative mind behind Justice Tech World.  
-            My journey into design started over a decade ago when I created my first logo for a friend’s small business.  
-            That single project sparked a passion for visual storytelling and problem-solving through design.
-        </p>
-        <p>
-            Over the years, I’ve honed my skills in graphics design, web development, and brand identity creation.  
-            Today, I help businesses of all sizes stand out with designs that are not only beautiful but also strategic and impactful.
-        </p>
-    </div>
-</section>
+    <!-- Services Preview -->
+    <section class="services-preview">
+        <div class="container">
+            <h2 class="section-title">What I Do</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-pencil-ruler"></i>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>Creating intuitive and beautiful user interfaces that provide exceptional user experiences.</p>
+                    <a href="services.html#uiux" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Building responsive, fast, and modern websites that work perfectly on all devices.</p>
+                    <a href="services.html#webdev" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile Development</h3>
+                    <p>Developing mobile applications that provide seamless experiences for iOS and Android.</p>
+                    <a href="services.html#mobiledev" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<section class="section">
-    <h2>Our Mission</h2>
-    <p>
-        At Justice Tech World, we believe great design is more than just looking good — it’s about creating experiences that connect, inspire, and deliver results.  
-        We combine creativity, strategy, and technology to craft designs that tell your story in a way that resonates with your audience.
-    </p>
-</section>
+    <!-- Featured Work -->
+    <section class="featured-work">
+        <div class="container">
+            <h2 class="section-title">Featured Work</h2>
+            <div class="portfolio-preview">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>E-commerce Platform</h3>
+                        <p>Complete e-commerce solution with custom design and payment integration</p>
+                        <a href="portfolio.html" class="portfolio-link">View Project <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Banking App UI</h3>
+                        <p>Modern banking application interface with enhanced user experience</p>
+                        <a href="portfolio.html" class="portfolio-link">View Project <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Brand Identity</h3>
+                        <p>Complete branding package for a tech startup including logo and guidelines</p>
+                        <a href="portfolio.html" class="portfolio-link">View Project <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="portfolio.html" class="btn btn-primary">View All Projects</a>
+            </div>
+        </div>
+    </section>
 
-<section class="section testimonial-section">
-    <h2>What Our Clients Say</h2>
-    <div class="testimonial">
-        <p class="quote">
-            <i class="fas fa-quote-left"></i>  
-            Justice Tech World transformed our brand identity and website.  
-            The designs were stunning, and the process was smooth from start to finish.  
-            We’ve seen a huge boost in customer engagement since the redesign!  
-            <i class="fas fa-quote-right"></i>
-        </p>
-        <p class="client-name">— Sarah Johnson, CEO of BrightPath Solutions</p>
-    </div>
-</section>
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h3>50+</h3>
+                    <p>Projects Completed</p>
+                </div>
+                <div class="stat-item">
+                    <h3>30+</h3>
+                    <p>Happy Clients</p>
+                </div>
+                <div class="stat-item">
+                    <h3>3+</h3>
+                    <p>Years Experience</p>
+                </div>
+                <div class="stat-item">
+                    <h3>15+</h3>
+                    <p>Awards Won</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<footer>
-    <p>Email: <a href="mailto:okanlawonjustice71@gmail.com">okanlawonjustice71@gmail.com</a> | 
-       Phone: <a href="tel:09039325651">09039325651</a> | 
-       LinkedIn: <a href="#">Your Profile</a></p>
-    <p>&copy; 2025 Justice Tech World. All Rights Reserved.</p>
-</footer>
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Client Testimonials</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Justice delivered an outstanding website for our business. His attention to detail and creative approach exceeded our expectations."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-image">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Okanlawon Alex</h4>
+                            <p>CEO, Kriss Gadget</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Working with Justice was a pleasure. He understood our vision and transformed it into a beautiful, functional mobile app."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-image">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Owolabi Olamilekan</h4>
+                            <p>Graphics Designer, Lekside Design</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"The UI/UX design Justice created for our application significantly improved user engagement. Highly recommended!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-image">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Oyelade Peter Inioluwa</h4>
+                            <p>Product Manager, Mouka Foam</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to start your project?</h2>
+            <p>Let's work together to bring your ideas to life</p>
+            <a href="contact.html" class="btn btn-primary">Get In Touch</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Justice Tech</h3>
+                    <p>Creating digital excellence through design and development.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="justice olawale"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-phone"></i> 09039325651</p>
+                    <p><i class="fas fa-envelope"></i> okanlawonjustice71@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Lagos, Nigeria</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Justice Tech. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
